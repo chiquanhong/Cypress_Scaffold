@@ -22,4 +22,5 @@ module.exports = defineConfig({
   numTestsKeptInMemory: 10,
   viewportWidth: 1440,
   viewportHeight: 900,
+  retries: 3,
 });
