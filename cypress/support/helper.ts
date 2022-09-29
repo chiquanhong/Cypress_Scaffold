@@ -1,5 +1,3 @@
-import { config } from 'cypress/types/bluebird';
-
 export function setCheckbox(checkboxObject: any, checked: boolean) {
   const checkBoxValue = checked ? 'be.checked' : 'not.be.checked';
   checked
@@ -57,9 +55,9 @@ export function dateFormatter(inputDate: Date) {
 
 export function getBaseUrl() {
   if (Cypress.env('environment') === 'TST') {
-    return 'https://ebanking.tst.bkb.ch/';
+    return 'https://infometis.tst.ch/';
   } else {
-    return 'https://ebanking.int.bkb.ch/';
+    return 'https://infometis.int.ch/';
   }
 }
 

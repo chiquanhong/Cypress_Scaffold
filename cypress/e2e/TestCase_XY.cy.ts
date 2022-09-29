@@ -1,4 +1,4 @@
-describe('Example Test for eBanking', () => {
+describe('Example Testsuite', () => {
   let testdata;
 
   before(() => {
@@ -6,7 +6,7 @@ describe('Example Test for eBanking', () => {
       testdata = data;
     });
   });
-  it('führt einen Kontouebertrag aus', () => {
+  it('führt einen TestCase aus', () => {
     //Todo
     cy.visit('/');
   });
